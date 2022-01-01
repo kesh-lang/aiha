@@ -1,2 +1,5 @@
 # aiha
-A new language based on na
+
+> A new language from the **kesh**
+
+**aiha** is the kesh word for new. Its syntax is a superset of [na](https://github.com/kesh-lang/na).

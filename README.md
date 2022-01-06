@@ -8,4 +8,3 @@ Its syntax is a superset of [na](https://github.com/kesh-lang/na).
 
 - [Exploration](https://github.com/kesh-lang/aiha/wiki/Exploration)
 - [Creation myth](https://github.com/kesh-lang/aiha/wiki/Creation-myth)
-- 

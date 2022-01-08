@@ -21,4 +21,4 @@ count: 0
 ```
 
 - [Creation myth](https://github.com/kesh-lang/aiha/wiki/Creation-myth)
-- [Adventures of a language](https://github.com/kesh-lang/aiha/wiki/Adventures-of-a-language)
+- [Adventures of a new language](https://github.com/kesh-lang/aiha/wiki/Adventures-of-a-new-language)

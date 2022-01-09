@@ -9,7 +9,8 @@ Its syntax is a superset of [na](https://github.com/kesh-lang/na).
 ![](https://github.com/kesh-lang/aiha/blob/main/aiha-code.png)
 
 ```lua
--- file: counter
+-- filename: counter
+
 count: 0
 
 >> (sender, _increment_) ->

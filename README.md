@@ -13,14 +13,14 @@ A dataflow language inspired by [Tesler](https://en.wikipedia.org/wiki/Larry_Tes
 count: 0
 
 -- behavior
->> (sender, _increment_) ->
+» (sender, _increment_) →
     count: count + 1         -- behavior's state
-    sender << count          -- reply with new count
+    sender « count          -- reply with new count
     = [count]                -- update actor's state
   
->> (sender, _decrement_) ->
+» (sender, _decrement_) →
     count: count - 1
-    sender << count
+    sender « count
     = [count]
 ```
 

@@ -9,12 +9,14 @@ A dataflow language inspired by [Tesler](https://en.wikipedia.org/wiki/Larry_Tes
 ```lua
 -- filename: counter
 
+-- actor's state
 count: 0
 
+-- behavior
 >> (sender, _increment_) ->
-    count: count + 1
-    sender << count
-    = [count]
+    count: count + 1  -- behavior's state
+    sender << count  -- reply with count
+    = [count]  -- update actor's state
   
 >> (sender, _decrement_) ->
     count: count - 1

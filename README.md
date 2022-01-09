@@ -15,7 +15,7 @@ count: 0
 -- behavior
 >> (sender, _increment_) ->
     count: count + 1         -- behavior's state
-    sender << count          -- reply with count
+    sender << count          -- reply with new count
     = [count]                -- update actor's state
   
 >> (sender, _decrement_) ->

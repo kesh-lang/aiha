@@ -2,7 +2,7 @@
 
 **aiha** is the kesh word for _new_.
 
-A dataflow language inspired by Tesler and Enea's [Compel](https://www.reddit.com/r/ProgrammingLanguages/comments/l1m4wr/a_language_design_for_concurrent_processes/) from 1968 and [Erlang](https://www.erlang.org/) from 1986.
+A dataflow language inspired by Tesler and Enea's [Compel](https://www.reddit.com/r/ProgrammingLanguages/comments/l1m4wr/a_language_design_for_concurrent_processes/) from 1968 and Armstrong et al's [Erlang](https://www.erlang.org/) from 1986.
 
 ![](https://github.com/kesh-lang/aiha/blob/main/aiha-code.png)
 

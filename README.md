@@ -6,18 +6,21 @@ A dataflow language inspired by Tesler and Enea's [Compel](https://www.reddit.co
 
 Its syntax is a superset of [na](https://github.com/kesh-lang/na).
 
-```lua
--- file: main
-counter: import 'counter'
-'increment' >> counter
-'decrement' >> counter
-```
+![](https://github.com/kesh-lang/aiha/blob/main/aiha-code.png)
 
 ```lua
 -- file: counter
 count: 0
->> 'increment' -> [count: count + 1]
->> 'decrement' -> [count: count - 1]
+
+>> (sender, _increment_) ->
+    count: count + 1
+    sender << count
+    = [count]
+  
+>> (sender, _decrement_) ->
+    count: count - 1
+    sender << count
+    = [count]
 ```
 
 - [Creation myth](https://github.com/kesh-lang/aiha/wiki/Creation-myth)

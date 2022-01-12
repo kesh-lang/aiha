@@ -26,5 +26,7 @@ count: 0
 
 Its syntax is a superset of [na](https://github.com/kesh-lang/na).
 
+<!--
 - [Creation myth](https://github.com/kesh-lang/aiha/wiki/Creation-myth)
 - [Adventures of a new language](https://github.com/kesh-lang/aiha/wiki/Adventures-of-a-new-language)
+-->
